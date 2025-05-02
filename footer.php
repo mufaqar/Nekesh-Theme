@@ -5,14 +5,7 @@
     	<div class="footer-widgets">
         	<div class="widget widget-one">
             	<h4>Quick Links</h4>
-                <ul>
-                    <li><a href="#">About Us</a></li>
-                    <li><a href="#">Results</a></li>
-                    <li><a href="#">Awards & Accolades</a></li>
-                    <li><a href="#">What Our Clients Say</a></li>
-                    <li><a href="#">Blog</a></li>
-                    <li><a href="#">Timming</a></li>
-                </ul>
+                <?php wp_nav_menu( array( 'theme_location' => 'footer' ) ); ?>
             </div><!--widget-->
             <div class="widget widget-two">
             	<h4>Latest Yelp Reviews</h4>
@@ -62,14 +55,7 @@
         </div><!--footer widgets-->
         <div id="footer">
         	<div class="footer-menu">
-            	<ul>
-                	<li><a href="#">Home</a></li>
-                    <li><a href="#">Drnikeshseth</a></li>
-                    <li><a href="#">Contact</a></li>
-                    <li><a href="#">Privacy Policy</a></li>
-                    <li><a href="#">Terms of Service</a></li>
-                    <li><a href="#">Sitemap</a></li>                             
-                </ul>
+            <?php wp_nav_menu( array( 'theme_location' => 'footer_copyright' ) ); ?>
                 <div class="clear"></div>
             </div><!--footer menu-->
             <div class="copy-right">

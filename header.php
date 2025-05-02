@@ -104,27 +104,7 @@
                 <div class="clear"></div>
             </div><!--menu right area-->
             <div id="main-menu">
-            	<ul>
-                	<li><a href="#">Home</a></li>        
-                    <li><a href="#">About</a></li>
-                    <li><a href="#">Pain Center</a>
-                    <ul>
-                        <li><a href="#">Home</a></li>        
-                        <li><a href="#">About</a></li>
-                        <li><a href="#">Pain Center</a></li>
-                        <li><a href="#">For Patients</a></li>
-                        <li><a href="#">Research</a></li>
-                        <li><a href="#">Forum</a></li>
-                        <li><a href="#">Video</a></li>
-                        <li><a href="#">Contact</a></li>
-                    </ul>
-                    </li>
-                    <li><a href="#">For Patients</a></li>
-                    <li><a href="#">Research</a></li>
-                    <li><a href="#">Forum</a></li>
-                    <li><a href="#">Video</a></li>
-                    <li><a href="#">Contact</a></li>
-                </ul>
+			<?php wp_nav_menu( array( 'theme_location' => 'main','fallback_cb'=> 'fallbackmenu1' ) ); ?>            	
                 <div class="clear"></div>
             </div><!--main menu-->
             <div class="clear"></div>

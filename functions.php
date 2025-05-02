@@ -66,10 +66,11 @@ function pagination($pages = '', $range = 4)
 }
 
 if (function_exists('register_nav_menus')) {
-register_nav_menus( array(
-		'main' => __( 'Main Menu', '' ),
-		'footer' => __( 'Footer Menu', '' ),
-	) );
+    register_nav_menus( array(
+            'main' => __( 'Primary Menu', '' ),
+            'footer' => __( 'Footer Menu', '' ),
+            'footer_copyright' => __( 'Copyright Menu', '' ),
+        ) );
 }
 
 function fallbackmenu1(){ ?>
