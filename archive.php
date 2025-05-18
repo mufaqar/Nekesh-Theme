@@ -21,7 +21,9 @@
         <h1 id="post-<?php the_ID(); ?>"><a href="<?php the_permalink() ?>"><?php the_title(); ?></a></h1>
         <?php include (TEMPLATEPATH . '/inc/meta.php' ); ?>
         <div class="entry">			
-			 <?php if ( has_post_thumbnail() ) { ?>
+
+		
+	<?php if ( has_post_thumbnail() ) { ?>
                     <div class="thumb">
 						<?php the_post_thumbnail(); ?>
                     </div>
