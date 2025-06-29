@@ -181,7 +181,9 @@ q {
 	padding: 4px 5px 5px 5px;
 	background-color: #fafafa;
 	border-radius: 3px;
+	
 	-webkit-border-radius: 3px;
+
 }
 a, a:visited, input[type="submit"], button, .search-button, .wpcf7-submit {
 	-webkit-transition: all 0.4s ease-in-out;
